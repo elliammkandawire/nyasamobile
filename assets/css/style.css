@@ -5702,7 +5702,7 @@ span.fill.my-class2 {
 }
 .pricing_head_style2 {
     padding: 12px 0 21px;
-    background: #0762f8;
+    background: #f38120;
 }
 .pricing_title_style2 h3 {
     font-size: 25px;
@@ -5740,7 +5740,7 @@ span.fill.my-class2 {
 }
 .order_style2_now a {
     background: #f5f5f5;
-    color: #0762f8;
+    color: #f38120;
     padding: 18px 55px;
     font-size: 18px;
     font-weight: 500;
@@ -5752,7 +5752,7 @@ span.fill.my-class2 {
     display: inline-block;
 }
 .active .order_style2_now a {
-    background:#0762f8;
+    background:#f38120;
 	color:#fff;
 }
 .order_style2_now a:before {
@@ -5762,7 +5762,7 @@ span.fill.my-class2 {
     height: 100%;
     left: -25%;
     width: 0%;
-    background:#0762f8;
+    background:#f38120;
     transform: skew(50deg);
     transition-duration: .6s;
     z-index: -1;

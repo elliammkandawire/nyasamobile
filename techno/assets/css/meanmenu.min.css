@@ -1,6 +1,6 @@
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
-	background: #0762f8;
+	background: #f38120;
 	float: left;
 	min-height: 60px;
 	padding: 4px 0 0;
@@ -93,7 +93,7 @@ a.meanmenu-reveal{display:none}
   display: none;
 }
 .mean-container .mean-nav ul li a:hover {
-	color: #0762f8;
+	color: #f38120;
 	border-radius: 0;
 }
 .mean-container a.meanmenu-reveal span {

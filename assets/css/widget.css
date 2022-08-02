@@ -33,7 +33,7 @@
 }
  .blog-left-side .sub-menu li a:hover, .blog-left-side .nav .children li a:hover {
      background: transparent;
-     color: #0762f8 ;
+     color: #f38120 ;
 }
  .search {
      background: #f7f7f7;
@@ -63,7 +63,7 @@
      top: 0;
      width: 16%;
      height: 100%;
-     background: #0762f8 ;
+     background: #f38120 ;
 }
  .search button i {
 }
@@ -91,7 +91,7 @@
 }
 .blog-left-side .widget ul {
     list-style: none;
-    color: #0762f8;
+    color: #f38120;
 }
  .blog-left-side .widget ul li {
      margin: 0 0 5px;
@@ -194,10 +194,10 @@
 }
  .tagcloud a:hover {
      color: #fff !important;
-     background: #0762f8 ;
+     background: #f38120 ;
 }
  .widget_categories ul li:hover:before, .widget_archive ul li:hover:before, .widget_categories ul li a:hover, .widget_archive ul li a:hover, .tagcloud a:hover, .r-post-content h3:hover, .r-post-content h3 a:hover {
-     color: #0762f8 ;
+     color: #f38120 ;
 }
  #wp-calendar caption {
      font-size: 14px;
@@ -241,5 +241,5 @@
 }
  table#wp-calendar td#today{
      color:#fff ;
-     background-color:#0762f8 ;
+     background-color:#f38120 ;
 }
