@@ -144,7 +144,7 @@
 				<li><a href="<?php echo base_url() ?>partnerships">Partnerships</a>
 					<ul class="sub-menu">
 						<?php foreach ($partners_category as $category): ?>
-							<li><a href="<?php echo base_url() ?>partners/<?php echo $category->slug ?>"><?php echo strtolower($category->name) ?></a></li>
+							<li><a href="<?php echo base_url() ?>partners?category=<?php echo $category->slug ?>"><?php echo strtolower($category->name) ?></a></li>
 						<?php endforeach; ?>
 					</ul>
 				</li>
