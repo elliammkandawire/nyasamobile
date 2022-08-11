@@ -2,38 +2,26 @@
 <!--==================================================-->
 <!----- Start Techno Footer Middle Area ----->
 <!--==================================================-->
-<div class="footer-middle pt-95" style="background-image:url(assets/images/call-bg.png)" >
+<div class="footer-middle pt-95" style="background-color: #1c103a" >
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="col-lg-2 col-md-6 col-sm-12">
 				<div class="widget widgets-company-info">
 					<div class="footer-bottom-logo pb-40">
-						<img style="object-fit: cover; height: 100px;" src="<?php echo base_url()?>assets/images/logo/<?php echo $company_data->logo ?>" alt="" />
-					</div>
-					<div class="company-info-desc">
-						<p>
-							<?php echo $company_data->motto ?>
-						</p>
-					</div>
-					<div class="follow-company-info pt-3">
-						<div class="follow-company-text mr-3">
-							<a href="#"><p>Follow Us</p></a>
-						</div>
-						<div class="follow-company-icon">
-							<a href="<?php echo $company_data->facebook ?>"><i class="fa fa-facebook"></i></a>
-							<a href="<?php  echo $company_data->twitter ?>"><i class="fa fa-twitter"></i></a>
-						</div>
+						<img style="object-fit: cover; height: 100px; margin-top: 50%" src="<?php echo base_url()?>assets/images/logo/<?php echo $company_data->logo ?>" alt="" />
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12">
 				<div class="widget widget-nav-menu">
-					<h4 class="widget-title pb-4">Our Partners</h4>
+					<h4 class="widget-title pb-4">Quick Links</h4>
 					<div class="menu-quick-link-container ml-4">
 						<ul id="menu-quick-link" class="menu">
-							<?php foreach ($partners_category as $category): ?>
-								<li><a href="<?php echo base_url() ?>partners/<?php echo $category->slug ?>"><?php echo ucwords(strtolower($category->name)) ?></a></li>
-							<?php endforeach; ?>
+								<li><a href="<?php echo base_url() ?>aboutUs">About Us</a></li>
+								<li><a href="<?php echo base_url() ?>partnerships">Partners</a></li>
+								<li><a href="<?php echo base_url() ?>careers">Careers</a></li>
+								<li><a href="<?php echo base_url() ?>news">Stories</a></li>
+								<li><a href="<?php echo base_url() ?>contact">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -56,32 +44,18 @@
 
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<div id="em-recent-post-widget">
 					<div class="single-widget-item">
-						<h4 class="widget-title pb-3">Popular Post</h4>
-						<?php foreach ($latest_news as $news):?>
-						<div class="recent-post-item active pb-3">
-							<div class="recent-post-image mr-3">
-								<a href="<?php echo base_url() ?>news/<?php echo $news->slug ?>">
-									<img style="object-fit: cover;" width="80" height="80" src="<?php echo base_url() ?>assets/images/news/<?php echo $news->picture ?>" alt="">
-								</a>
-							</div>
-							<div class="recent-post-text">
-								<h6><a href="<?php echo base_url() ?>news/<?php echo $news->slug ?>">
-										<?php echo ucwords($news->title) ?>
-									</a>
-								</h6>
-								<span class="rcomment">
-									<?php
-									$date=date_create($news->datetime);
-									echo date_format($date,"M d, Y");
-									?>
-								</span>
+						<h4 class="widget-title pb-3">FIND US ON SOCIAL MEDIA</h4>
+						<div class="footer_middle_social">
+							<div class="footer_middle_social_icon">
+								<a class="color1" href="<?php echo $company_data->facebook; ?>"><i class="fa fa-facebook"></i></a>
+								<a class="color2" href="<?php echo $company_data->twitter; ?>"><i class="fa fa-twitter"></i></a>
+								<a class="color3" href="<?php echo $company_data->instagram; ?>"><i class="fa fa-instagram"></i></a>
+								<a class="color3" href="<?php echo $company_data->youtube; ?>"><i class="fa fa-youtube"></i></a>
 							</div>
 						</div>
-						<?php endforeach; ?>
-
 					</div>
 				</div>
 			</div>

@@ -46,7 +46,8 @@ Version: 0.1
  Techno	Main Menu Area Css
 ==============================*/
 .Techno_nav_manu {
-    background: #fff;
+    background:#4488c7;
+	color: #ffffff !important;
     transition: .5s;
     margin-bottom: 0;
     z-index: 999;
@@ -312,6 +313,7 @@ a.dtbtn:hover {
 }
 .Techno_menu li a:hover:before{
 	width:101%;
+	color: #fff;
 }
 .Techno_nav_manu.sticky .logo_img {
     display: none;
@@ -791,6 +793,7 @@ a.dtbtn:hover {
 }
 .button .active {
     background: #4488c7;
+	color: whitesmoke;
     margin-left: 25px;
 }
 .button .active:before {

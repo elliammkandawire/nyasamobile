@@ -86,10 +86,10 @@
 			<div class="col-md-3">
 				<div class="logo mt-4">
 					<a class="logo_img" href="<?php echo  base_url()?>" title="<?php echo $company_data->fullname  ?>">
-						<img style="object-fit: cover; height: 70px;" src="<?php echo base_url() ?>assets/images/logo/<?php echo $company_data->logo ?>" alt="" />
+						<img style="object-fit: cover; height: 80px;" src="<?php echo base_url() ?>assets/images/logo/<?php echo $company_data->logo ?>" alt="" />
 					</a>
 					<a class="main_sticky" href="<?php echo base_url() ?>" title="<?php echo $company_data->fullname  ?>">
-						<img style="object-fit: cover; height: 60px;" src="<?php echo base_url()?>assets/images/logo/<?php echo $company_data->logo ?>" alt="<?php echo $company_data->fullname  ?>" />
+						<img style="object-fit: cover; height: 80px;" src="<?php echo base_url()?>assets/images/logo/<?php echo $company_data->logo ?>" alt="<?php echo $company_data->fullname  ?>" />
 					</a>
 				</div>
 			</div>
@@ -98,13 +98,13 @@
 					<ul class="nav_scroll">
 						<li><a href="<?php echo base_url() ?>">Home</a>
 						</li>
-						<li><a href="#">Company</a>
+						<li><a href="<?php echo base_url() ?>aboutUs">About Us</a>
 							<ul class="sub-menu">
 								<li><a href="<?php echo base_url() ?>aboutUs">About Us</a></li>
 								<li><a href="<?php echo base_url() ?>team">Management Team</a></li>
 							</ul>
 						</li>
-						<li><a href="<?php echo base_url() ?>partnerships">Partnerships</a>
+						<li><a href="<?php echo base_url() ?>partnerships">Partners</a>
 							<ul class="sub-menu">
 								<?php foreach ($partners_category as $category): ?>
 								<li><a href="<?php echo base_url() ?>partners?category=<?php echo $category->slug ?>"><?php echo strtolower($category->name) ?></a></li>
@@ -113,7 +113,7 @@
 						</li>
 						<li><a href="<?php echo  base_url() ?>careers">Careers</a>
 						</li>
-						<li><a href="<?php echo base_url()?>news">News </a>
+						<li><a href="<?php echo base_url()?>news">Stories </a>
 						</li>
 						<li><a href="<?php echo base_url() ?>contact">Contact</a>
 						</li>
@@ -135,13 +135,13 @@
 			<ul class="nav_scroll">
 				<li><a href="<?php echo base_url() ?>">Home</a>
 				</li>
-				<li><a href="#">Company</a>
+				<li><a href="<?php echo base_url() ?>aboutUs">About Us</a>
 					<ul class="sub-menu">
 						<li><a href="<?php echo base_url() ?>aboutUs">About Us</a></li>
 						<li><a href="<?php echo base_url() ?>team">Management Team</a></li>
 					</ul>
 				</li>
-				<li><a href="<?php echo base_url() ?>partnerships">Partnerships</a>
+				<li><a href="<?php echo base_url() ?>partnerships">Partners</a>
 					<ul class="sub-menu">
 						<?php foreach ($partners_category as $category): ?>
 							<li><a href="<?php echo base_url() ?>partners?category=<?php echo $category->slug ?>"><?php echo strtolower($category->name) ?></a></li>
@@ -150,7 +150,7 @@
 				</li>
 				<li><a href="<?php echo  base_url() ?>careers">Careers</a>
 				</li>
-				<li><a href="<?php echo base_url()?>news">News </a>
+				<li><a href="<?php echo base_url()?>news">Stories </a>
 				</li>
 				<li><a href="<?php echo base_url() ?>contact">Contact</a>
 				</li>

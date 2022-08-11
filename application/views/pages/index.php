@@ -19,7 +19,7 @@
 								<div class="slider_button pt-5 d-flex">
 									<div class="button">
 										<a href="<?php echo base_url() ?>partnerships">Our Partners<i class="fa fa-long-arrow-right"></i></a>
-										<a class="active" href="<?php echo base_url() ?>aboutUs">About Us<i class="fa fa-long-arrow-right"></i></a>
+										<a style="background-color: #4488c7" href="<?php echo base_url() ?>aboutUs">About Us<i class="fa fa-long-arrow-right"></i></a>
 									</div>
 								</div>
 							</div>

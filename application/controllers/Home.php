@@ -9,6 +9,8 @@ class Home extends BaseController {
 	}
 
 	public function aboutUs(){
-		$this->addWebsiteHeader("pages/about",null);
+		$data["data"]=$this->customerOrder("team","display_position","asc");
+		$data["title"]="teams";
+		$this->addWebsiteHeader("pages/about",$data);
     }
 }

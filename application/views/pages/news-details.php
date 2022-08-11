@@ -105,7 +105,7 @@
 							<div class="recent-post-item">
 								<div class="recent-post-image">
 									<a href="<?php echo  base_url()?>news/<?php echo $article->slug ?>">
-										<img style="object-fit: cover" height="80" src="<?php echo base_url() ?>assets/images/news/<?php echo $article->picture ?>" alt="">
+										<img style="object-fit: cover; height: 50px; width: 60px"  height="80" src="<?php echo base_url() ?>assets/images/news/<?php echo $article->picture ?>" alt="">
 									</a>
 								</div>
 								<div class="recent-post-text">

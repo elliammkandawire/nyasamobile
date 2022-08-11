@@ -10,7 +10,7 @@ class News extends BaseController {
 		if($this->input->get("page")==null){
 			$page=0;
 		}
-		$data["data"]=array("content"=>$this->new_paginated($this->table,$page,10), "totalPages"=>$this->no_of_pages($this->table,10));
+		$data["data"]=array("content"=>$this->customerOrder($this->table,"datetime","DESC"));
 		$data["title"]="news";
 		$this->addWebsiteHeader("pages/news",$data);
 	}
