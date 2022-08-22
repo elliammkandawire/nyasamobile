@@ -29,9 +29,10 @@
 					<div class="service_style_one_icon mb-30">
 						<img style="object-fit: cover; height: 70px;" src="<?php echo base_url() ?>assets/images/parterners/<?php echo $partner["logo"]; ?>" alt="" />
 					</div>
-					<div class="service_style_one_title mb-30">
+					<a target="_blank" href="<?php echo $partner["website"] ?>"><div class="service_style_one_title mb-30">
 						<h4><?php echo $partner["name"]; ?></h4>
 					</div>
+					</a>
 				</div>
 			</div>
 			<?php endforeach; ?>

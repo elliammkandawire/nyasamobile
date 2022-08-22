@@ -1,3 +1,4 @@
+
 <!--==================================================-->
 <!----- Start Techno About Area ----->
 <!--==================================================-->
@@ -35,6 +36,41 @@
 
 		</div>
 	</div>
+
+	<!--==================================================-->
+	<!----- Start Techno About Area ----->
+	<!--==================================================-->
+	<div class="team_member pt-85 pb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="section_title text_left mb-60 mt-3">
+						<div class="section_sub_title uppercase mb-3">
+							<h6>OUR STAFF</h6>
+						</div>
+						<div class="section_main_title">
+							<h1>Meet Our Patriotic Staff</h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="team_join_thumb">
+						<img style="object-fit: cover; width: 100%; height: 800px" src="<?php echo base_url() ?>assets/images/about/<?php echo $company_data->about_picture  ?>" alt="" />
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno About Area ----->
+	<!--==================================================-->
 
 	<div class="container">
 		<div class="row">
