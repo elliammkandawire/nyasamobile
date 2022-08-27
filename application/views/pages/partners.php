@@ -24,8 +24,8 @@
 			</div>
 		<div class="row">
 			<?php foreach ($category as $partner): ?>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="service_style_one text_center pt-40 pb-40 pl-3 pr-3 mb-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="service_style_one text_center pt-40 pb-41 pl-3 pr-3 mb-4">
 					<div class="service_style_one_icon mb-30">
 						<img style="object-fit: cover; height: 70px;" src="<?php echo base_url() ?>assets/images/parterners/<?php echo $partner["logo"]; ?>" alt="" />
 					</div>

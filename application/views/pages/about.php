@@ -96,7 +96,7 @@
 						<div class="team_style_three_inner">
 							<div class="team_style_three-thumb">
 								<div class="team_style_three_thumb_inner">
-									<img src="<?php echo base_url() ?>assets/images/team/<?php echo $team->picture ?>" alt="" />
+									<img style="object-fit: cover; height: 370px" src="<?php echo base_url() ?>assets/images/team/<?php echo $team->picture ?>" alt="" />
 								</div>
 							</div>
 							<div class="team_style_three_content">

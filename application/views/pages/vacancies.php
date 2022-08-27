@@ -3,7 +3,7 @@
 <!--==================================================-->
 <!----- Start Techno Service Area ----->
 <!--==================================================-->
-<div class="service_area bg_color2 pt-85 pb-180">
+<div class="service_area bg_color2 pt-85 pb-80">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-top: 250px">
 			<?php foreach ($vacancies as $vacancy): ?>
 			<div class="col-lg-4 col-md-6 col-sm-12">
 				<div class="service_style_five pt-40 pb-40 pl-25 pr-3 mb-30">

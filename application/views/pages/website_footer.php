@@ -17,6 +17,7 @@
 					<h4 class="widget-title pb-4">Quick Links</h4>
 					<div class="menu-quick-link-container ml-4">
 						<ul id="menu-quick-link" class="menu">
+							   <li><a href="<?php echo base_url() ?>">Home</a></li>
 								<li><a href="<?php echo base_url() ?>aboutUs">About Us</a></li>
 								<li><a href="<?php echo base_url() ?>partnerships">Partners</a></li>
 								<li><a href="<?php echo base_url() ?>careers">Careers</a></li>

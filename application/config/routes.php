@@ -57,3 +57,31 @@ $route['news/(:any)'] = 'news/details/$1';
 $route['careers/(:any)'] = 'Vacancies/details/$1';
 $route['404_override'] = 'NotFound';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['login'] = 'user';
+$route['auth'] = 'user/login';
+$route['dashboard'] = 'home/dashboard';
+$route['logout'] = 'user/logout';
+
+$route['update_company'] = 'home/update_company';
+$route['update_slider'] = 'slider/update_slider';
+
+$route['admin_about'] = 'home/admin_about_us';
+$route['services_admin'] = 'services/admin_dashboard';
+
+$route['members_admin'] = 'members/admin_dashboard';
+
+$route['partners_admin'] = 'Partners/admin_dashboard';
+$route['admin_resources'] = 'publications/resources_admin';
+$route['team_admin'] = 'team/admin_dashboard';
+$route['news_admin'] = 'news/news_admin';
+$route['events_admin'] = 'events/admin_dashboard';
+$route['careers_admin'] = 'vacancies/admin_dashboard';
+
+$route['edit_news'] = 'news/EditExisting';
+$route['updateMember'] = 'Partners/updateMember';
+$route['addMember'] = 'Partners/addMember';
+$route['addNewVacancy'] = 'Vacancies/addNew';
+$route['updateExistingVacancy'] = 'Vacancies/updateExisting';
+$route['addNew'] = 'news/addNew';
+$route['delete_news/(:any)'] = 'news/delete/$1';
