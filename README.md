@@ -8,7 +8,7 @@
 
 #Edit Database Config Details
 1. Open /application/config/database.php with any editor
-2. Go to line 79, and replace `root` with databse username
+2. Go to line 79, and replace `root` with database username
 3. Go to line 80 and add Password for the database
 4. Save and exit. 
 
