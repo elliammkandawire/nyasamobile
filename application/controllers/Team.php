@@ -17,7 +17,7 @@ class Team extends BaseController {
 	public function admin_dashboard(){
 		$ref=null;
 		if(isset($_GET['page'])){
-			$ref=$this->input->post("edit_slug");
+			$ref=$this->input->get("page");
 		}
 		if($this->check_if_logged_in()){
 			$this->load_page_content($ref);

@@ -19,7 +19,7 @@
 				<nav aria-label="Page navigation">
 					<ul class="pagination">
 						<?php foreach($pagenation as $page_number): ?>
-							<li class="page-item <?php if($page==$page_number){ echo "active";} ?>"><a class="page-link active" href="<?php echo base_url() ?>partners_admin?page=<?php echo $page_number ?>"><?php echo $page_number ?></a></li>
+							<li class="page-item <?php if($page==$page_number){ echo "active";} ?>"><a class="page-link active" href="<?php echo base_url() ?>careers_admin?page=<?php echo $page_number ?>"><?php echo $page_number ?></a></li>
 						<?php endforeach; ?>
 					</ul>
 				</nav>
